@@ -1,4 +1,4 @@
-package dev.mj.springtutorial.lesson7;
+package dev.mj.springtutorial.lesson6;
 
 import lombok.NoArgsConstructor;
 
