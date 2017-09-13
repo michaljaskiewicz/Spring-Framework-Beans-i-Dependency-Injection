@@ -1,7 +1,6 @@
 package dev.mj.springtutorial.lesson8;
 
 import lombok.AllArgsConstructor;
-import lombok.Getter;
 import lombok.ToString;
 
 import java.util.Locale;

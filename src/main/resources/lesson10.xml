@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="user" class="dev.mj.springtutorial.lesson10.User" >
+        <constructor-arg name="name" value="Janek" />
+        <property name="address">
+            <bean class="dev.mj.springtutorial.lesson10.Address" >
+                <constructor-arg value="Warszawa" />
+                <constructor-arg value="02-299" />
+                <constructor-arg value="Koszykowa" />
+                <constructor-arg value="86" />
+            </bean>
+        </property>
+    </bean>
+
+    <bean id="user2" class="dev.mj.springtutorial.lesson10.User" >
+        <constructor-arg><null/></constructor-arg>
+    </bean>
+
+</beans>

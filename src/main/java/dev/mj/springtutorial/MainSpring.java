@@ -1,7 +1,5 @@
 package dev.mj.springtutorial;
 
-import dev.mj.springtutorial.api.UsersRepository;
-import dev.mj.springtutorial.domain.User;
 import dev.mj.springtutorial.implementations.SomeBean;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
