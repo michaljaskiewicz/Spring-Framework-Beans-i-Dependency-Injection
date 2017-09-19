@@ -5,7 +5,7 @@ import lombok.Setter;
 
 @Getter
 @Setter
-public class SomeBean {
+class SomeBean {
     private InjectedBean injectedBean;
     private InjectedBean injectedBean2;
 }

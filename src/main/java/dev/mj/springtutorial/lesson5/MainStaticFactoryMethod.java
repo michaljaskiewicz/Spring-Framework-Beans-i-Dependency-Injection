@@ -6,9 +6,9 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 import java.text.DateFormat;
 import java.util.Calendar;
 
-public class MainStaticFactoryMethod {
+class MainStaticFactoryMethod {
 
-    public static void main(String[] args) {
+    static void main(String[] args) {
         ApplicationContext context = new ClassPathXmlApplicationContext("lesson5.xml");
         Calendar calendar = (Calendar) context.getBean("calendar");
         DateFormat formatter = (DateFormat) context.getBean("formatter");

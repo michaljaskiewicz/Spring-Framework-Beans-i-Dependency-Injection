@@ -7,7 +7,7 @@ import lombok.ToString;
 @Getter
 @Setter
 @ToString
-public class SomeBean {
+class SomeBean {
     private String stringValue;
     private int intValue;
     private User user;

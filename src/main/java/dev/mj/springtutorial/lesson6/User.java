@@ -5,11 +5,11 @@ import lombok.NoArgsConstructor;
 import static lombok.AccessLevel.PRIVATE;
 
 @NoArgsConstructor(access = PRIVATE)
-public class User {
+class User {
     private String name;
     private int age;
 
-    public static User getInstance(String name, int age) {
+    static User getInstance(String name, int age) {
         User user = new User();
         user.name = name;
         user.age = age;

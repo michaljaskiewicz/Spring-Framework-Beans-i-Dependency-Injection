@@ -9,7 +9,7 @@ import java.util.Properties;
 
 @Getter
 @Setter
-public class SomeBean {
+class SomeBean {
     private Map<String, Locale> locales;
     private Properties settings;
 }

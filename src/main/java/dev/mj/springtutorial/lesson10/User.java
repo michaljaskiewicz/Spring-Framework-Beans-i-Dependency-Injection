@@ -5,11 +5,11 @@ import lombok.*;
 @Getter
 @Setter
 @ToString
-public class User {
+class User {
     private String name;
     private Address address;
 
-    public User(String name) {
+    User(String name) {
         this.name = name;
     }
 }

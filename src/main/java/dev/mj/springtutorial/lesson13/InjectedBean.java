@@ -7,6 +7,6 @@ import lombok.ToString;
 @Getter
 @Setter
 @ToString
-public class InjectedBean {
+class InjectedBean {
     private String name;
 }

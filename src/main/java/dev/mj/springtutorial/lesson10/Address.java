@@ -5,7 +5,7 @@ import lombok.ToString;
 
 @AllArgsConstructor
 @ToString
-public class Address {
+class Address {
     private String locality;
     private String zipCode;
     private String street;

@@ -7,7 +7,7 @@ import java.util.Locale;
 
 @AllArgsConstructor
 @ToString
-public class User {
+class User {
     private String name;
     private int age;
     private Locale locale;

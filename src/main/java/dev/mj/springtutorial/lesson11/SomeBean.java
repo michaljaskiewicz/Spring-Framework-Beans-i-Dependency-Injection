@@ -10,7 +10,7 @@ import java.util.Set;
 @AllArgsConstructor
 @Getter
 @Setter
-public class SomeBean {
+class SomeBean {
     List<String> stringsList;
     Set<Integer> integersSet;
     Long[] longsArray;

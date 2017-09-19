@@ -5,9 +5,9 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 import java.util.Arrays;
 
-public class Main {
+class Main {
 
-    public static void main(String[] args) {
+    static void main(String[] args) {
         ApplicationContext context = new ClassPathXmlApplicationContext("lesson11.xml");
         SomeBean bean = context.getBean("someBean", SomeBean.class);
         System.out.println(bean.getIntegersSet());
