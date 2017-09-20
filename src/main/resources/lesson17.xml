@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="usersRepository" class="dev.mj.springtutorial.lesson17.UsersRepository" scope="prototype"/>
+
+    <bean id="component1" class="dev.mj.springtutorial.lesson17.Component1" >
+        <property name="usersRepository" ref="usersRepository"/>
+    </bean>
+
+    <bean id="component2" class="dev.mj.springtutorial.lesson17.Component2" >
+        <property name="usersRepository" ref="usersRepository"/>
+    </bean>
+</beans>
