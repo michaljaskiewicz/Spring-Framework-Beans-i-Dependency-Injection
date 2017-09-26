@@ -7,7 +7,7 @@ import lombok.ToString;
 @Getter
 @Setter
 @ToString
-public class Database {
+class Database {
     private String host;
     private String port;
     private String user;
