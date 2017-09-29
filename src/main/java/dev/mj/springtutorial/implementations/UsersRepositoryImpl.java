@@ -4,12 +4,14 @@ import dev.mj.springtutorial.api.Logger;
 import dev.mj.springtutorial.api.UsersRepository;
 import dev.mj.springtutorial.domain.User;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Service;
 
-//@Service("usersRepository")
+@Service("usersRepository")
 public class UsersRepositoryImpl implements UsersRepository {
 
     @Autowired
+    @Qualifier("counterLoggerXmlQualifier")
     private Logger logger;
 
     public User createUser(String name) {
